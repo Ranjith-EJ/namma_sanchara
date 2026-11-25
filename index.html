@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Karnataka with Namma Sanchara Adventures — treks, waterfalls, hidden places and unforgettable group trips.">
+  <title>Namma Sanchara Adventures | Explore Karnataka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">🌿 Discover Karnataka differently — your next adventure starts here!</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Namma Sanchara home">
+      <span class="brand-mark">NS</span><span><strong>NAMMA SANCHARA</strong><small>ADVENTURES</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#trips">Our Trips</a><a href="#about">About Us</a>
+      <a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#trips">Explore Trips <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow light">🌿 NATURE · TREKKING · TRAVEL</span>
+        <h1>Find your next<br><em>happy place.</em></h1>
+        <p>Hidden trails, misty mountains, roaring waterfalls and people who soon feel like friends. Let's explore Karnataka together.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#trips">Explore Adventures <span>↗</span></a><a class="text-link light-link" href="#about">Discover our story →</a></div>
+        <div class="hero-proof"><div class="avatars"><i>☺</i><i>☺</i><i>☺</i></div><span><b>2,200+ explorers</b><small>and counting</small></span><span class="proof-divider"></span><span>✦ Verified travel page</span></div>
+      </div>
+      <div class="hero-tag"><span>✦</span> MADE FOR THE<br>WILD AT HEART</div>
+      <a class="scroll-cue" href="#why">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="quick-facts" id="why">
+      <div><b>⛰</b><span><strong>Mountain trails</strong><small>Views worth the climb</small></span></div>
+      <div><b>💧</b><span><strong>Waterfall escapes</strong><small>Find your wild side</small></span></div>
+      <div><b>🤝</b><span><strong>Good company</strong><small>Meet people, make memories</small></span></div>
+      <div><b>📍</b><span><strong>All across Karnataka</strong><small>Local trips, big memories</small></span></div>
+    </section>
+
+    <section class="section trips-section" id="trips">
+      <div class="section-heading">
+        <div><span class="eyebrow">YOUR NEXT STORY BEGINS HERE</span><h2>Adventures worth<br><em>getting lost in.</em></h2></div>
+        <p>From sunrise treks to refreshing waterfall escapes, find the experience that speaks to you.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter trips">
+        <button class="filter active" data-filter="all">All adventures</button><button class="filter" data-filter="trek">Treks</button><button class="filter" data-filter="waterfall">Waterfalls</button><button class="filter" data-filter="weekend">Weekend trips</button>
+      </div>
+      <div class="trip-grid">
+        <article class="trip-card" data-category="trek weekend">
+          <div class="trip-image" style="--img:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85')"><span class="trip-label">TREKKING</span><button class="heart" aria-label="Save trip">♡</button></div>
+          <div class="trip-info"><div class="trip-meta"><span>📍 Western Ghats</span><span>◷ 1 Day</span></div><h3>Misty Mountain Trails</h3><p>Chase the clouds, breathe in the fresh air and enjoy panoramic hilltop views.</p><div class="trip-bottom"><span class="price">Enquire for price</span><button class="details-btn" data-trip="Misty Mountain Trails">View details ↗</button></div></div>
+        </article>
+        <article class="trip-card" data-category="waterfall weekend">
+          <div class="trip-image" style="--img:url('https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1000&q=85')"><span class="trip-label">WATERFALL</span><button class="heart" aria-label="Save trip">♡</button></div>
+          <div class="trip-info"><div class="trip-meta"><span>📍 Karnataka</span><span>◷ 1 Day</span></div><h3>Waterfall Wanderer</h3><p>Follow forest paths to beautiful cascades and spend a day surrounded by nature.</p><div class="trip-bottom"><span class="price">Enquire for price</span><button class="details-btn" data-trip="Waterfall Wanderer">View details ↗</button></div></div>
+        </article>
+        <article class="trip-card" data-category="trek">
+          <div class="trip-image" style="--img:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85')"><span class="trip-label">NATURE ESCAPE</span><button class="heart" aria-label="Save trip">♡</button></div>
+          <div class="trip-info"><div class="trip-meta"><span>📍 Hidden Karnataka</span><span>◷ 2 Days</span></div><h3>Offbeat Nature Escape</h3><p>Step away from the usual routes and discover quiet corners with your travel crew.</p><div class="trip-bottom"><span class="price">Enquire for price</span><button class="details-btn" data-trip="Offbeat Nature Escape">View details ↗</button></div></div>
+        </article>
+      </div>
+      <p class="demo-note">Demo trip cards — replace these with confirmed destinations, dates, inclusions and prices before publishing.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-photo"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Beautiful mountain lake surrounded by green hills"><div class="photo-stamp">GO<br>BEYOND<br>ORDINARY</div></div>
+      <div class="about-copy"><span class="eyebrow">A LITTLE ABOUT US</span><h2>We don't just plan trips.<br><em>We create stories.</em></h2><p>Namma Sanchara Adventures brings people closer to nature through trekking, travel and offbeat experiences across Karnataka.</p><p>Whether you're travelling solo or with friends, come as you are. Meet new people, explore beautiful places and return with memories worth sharing.</p>
+        <div class="values"><div><b>01</b><span><strong>Explore responsibly</strong><small>Respect nature and local communities.</small></span></div><div><b>02</b><span><strong>Travel together</strong><small>Make new connections along the way.</small></span></div><div><b>03</b><span><strong>Collect memories</strong><small>Make every journey count.</small></span></div></div>
+        <a class="btn btn-dark" href="#contact">Plan an adventure ↗</a>
+      </div>
+    </section>
+
+    <section class="section experience-section">
+      <div class="center-heading"><span class="eyebrow">MORE THAN A TRIP</span><h2>What makes the journey <em>special?</em></h2><p>Little things that turn a day out into a memory for life.</p></div>
+      <div class="experience-grid">
+        <div class="experience-item"><span>🌄</span><h3>Beautiful places</h3><p>Explore scenic trails, hidden spots and nature escapes around Karnataka.</p></div>
+        <div class="experience-item"><span>🧑‍🤝‍🧑</span><h3>New friendships</h3><p>Meet fellow explorers and share the journey with a welcoming group.</p></div>
+        <div class="experience-item"><span>📸</span><h3>Moments to remember</h3><p>Come back with stories, photographs and experiences to cherish.</p></div>
+        <div class="experience-item"><span>🌱</span><h3>Love for nature</h3><p>Enjoy the outdoors while being mindful of the places we visit.</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading gallery-heading"><div><span class="eyebrow light">POSTCARDS FROM THE OUTDOORS</span><h2>Every picture tells<br><em>a travel story.</em></h2></div><a class="text-link light-link" href="https://www.instagram.com/namma_sanchara_adventures/" target="_blank" rel="noopener">Follow on Instagram ↗</a></div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=85" alt="Deer in a green forest">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Hiker enjoying a mountain view">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=85" alt="Sunlight through a forest">
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=85" alt="Green forest trail">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=85" alt="Mountain landscape at sunset">
+      </div>
+      <p class="gallery-caption">A demo gallery using sample travel photography. Add your own trip photos for an authentic brand feel.</p>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="center-heading"><span class="eyebrow">TRAVEL BUDDIES SAY</span><h2>Good trips. <em>Great memories.</em></h2><p>Share real traveller feedback here once you have permission to publish it.</p></div>
+      <div class="review-grid">
+        <blockquote><div class="stars">★★★★★</div><p>“The best part of travelling is the people you meet and the memories you make together.”</p><cite>— Sample traveller feedback</cite></blockquote>
+        <blockquote><div class="stars">★★★★★</div><p>“A refreshing break from routine. Beautiful nature, new friends and a day to remember.”</p><cite>— Sample traveller feedback</cite></blockquote>
+        <blockquote><div class="stars">★★★★★</div><p>“Every journey gives you a new story. Looking forward to the next adventure!”</p><cite>— Sample traveller feedback</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="faq-intro"><span class="eyebrow">GOOD TO KNOW</span><h2>Before you<br><em>hit the trail.</em></h2><p>Have another question? Message our team and we'll help you plan.</p><a class="text-link" href="#contact">Ask us anything ↗</a></div>
+      <div class="faq-list">
+        <details><summary>How can I book a trip? <span>＋</span></summary><p>Choose an adventure and contact the team through WhatsApp or phone to confirm the date, availability and booking process.</p></details>
+        <details><summary>Can solo travellers join? <span>＋</span></summary><p>Yes. Group adventures can be a great way to meet new people. Please confirm the group format and availability with the organisers.</p></details>
+        <details><summary>What should I carry for a trek? <span>＋</span></summary><p>Comfortable shoes, water, weather-appropriate clothing, personal medication and any trip-specific items shared by the organisers.</p></details>
+        <details><summary>Are trip prices and inclusions fixed? <span>＋</span></summary><p>Prices, inclusions, transport, meals and entry fees can vary by trip. Ask for the latest written itinerary before paying.</p></details>
+        <details><summary>What happens if the weather changes? <span>＋</span></summary><p>Outdoor plans may change for safety. Confirm the organiser's cancellation, rescheduling and refund policy before booking.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-bg"></div><div class="contact-content">
+        <span class="eyebrow light">THE OUTDOORS IS CALLING</span><h2>Let's make your<br><em>next story happen.</em></h2>
+        <p>Tell us what kind of adventure you're dreaming about. We'll help you take the first step.</p>
+        <div class="contact-actions"><a class="btn btn-primary" href="https://wa.me/918139954601?text=Hi%20Namma%20Sanchara%2C%20I%20would%20like%20to%20know%20about%20your%20upcoming%20trips." target="_blank" rel="noopener">Chat on WhatsApp ↗</a><a class="phone-link" href="tel:+918139954601">Call 81399 54601</a></div>
+        <div class="contact-details"><span>📞 81399 54601</span><span>📞 80738 51774</span><span>📍 Karnataka, India</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top"><a class="brand footer-brand" href="#home"><span class="brand-mark">NS</span><span><strong>NAMMA SANCHARA</strong><small>ADVENTURES</small></span></a><p>Nature. People. Places. Memories.</p><div class="socials"><a href="https://www.instagram.com/namma_sanchara_adventures/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://chat.whatsapp.com/KVhzCjZrCA47Q4sq8AKOm3" target="_blank" rel="noopener">WhatsApp Community ↗</a></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Namma Sanchara Adventures. Demo website.</span><a href="#home">Back to top ↑</a></div>
+    <p class="disclaimer">This is an unofficial demo concept, not the company's live website. Confirm all trip information, policies and permissions before launch.</p>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/918139954601" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏</a>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
